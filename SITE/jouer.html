@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>UDEV'OTCHI</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,
+	user-scalable=no,shrink-to-fit=no,viewport-fit=cover">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	<body class="jouer">
+		<header class="logo"><img src="image/udevotchi.png" alt="Logo"></header>
+	<div class="content">
+	<nav class="menu">
+		<ul>
+			<li><a href="index.html"><img src="image/acceuil.png" alt=""></a></li>
+			<li><a href="inscription.html"><img src="image/inscription.png" alt=""></a></li>
+			<li><a href="moncompte.html"><img src="image/mon-compte.png" alt=""></a></li>
+			<li><a href="jouer.html"><img src="image/joueron.png" alt=""></a></li>
+			<!-- <li><a href="avis.html"><img src="image/avis.png" alt=""></a></li> -->
+			<li><a href="quisommesnous.html"><img src="image/Qui-sommes-nous-.png" alt=""></a></li>
+			<li><a href="contact.html"><img src="image/contact.png" alt=""></a></li>
+		</ul>
+	</nav>
+		<div class="jeux">
+		
+		<div class="gauche">
+		<input type="submit" class="play" value="START"> 
+		<div class="affichageTemps">temps restant <span id="sec">0</span> sec</div> 
+		<progress class="bonheur" value="100" max="100">bonheur</progress> 
+		<div id="tamagotchi" class="base">
+		</div>
+		</div>	
+		<div class="droite">
+		<div class="affichageEvent">pas d'event en cours</div>
+		<progress class="bar" value="0" max="100"></progress>
+		<fieldset id="objet" class="objet">
+			<legend>Nourriture</legend>
+			<img class="action" id="toast" src="image/bread.png"> 
+			<img class="action" id="burger" src="image/burger.png"> 
+			<img class="action" id="iceCream" src="image/ice-cream.png"> 
+			<img class="action" id="coffee" src="image/coffee-cup.png"> 
+			<img class="action" id="beer" src="image/beer.png">
+		</fieldset>
+
+		<fieldset id="objet" class="objet">
+			<legend>Travail</legend>
+			<img class="action" id="ordi" src="image/desktop.png"> 
+		</fieldset>
+	</div>
+
+	<!-- 	<input type="submit" class="ajout" value="ajout"> 
+		<input type="submit" class="insat" value="insatisfait"> 
+		<input type="submit" class="pause" value="pause">  -->
+
+	</div>
+		</div>
+	<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+/* couleur :#ffd703 jaune
+			#67b9cf bleu*/
+			
+@font-face{ /*déclaration police du site*/
+	font-family: 'osaka-re';
+	src        : url('police/osaka-re.ttf');
+}
+@font-face{ /*déclaration police du site*/
+	font-family: 'Japonesa';
+	src:url('police/Japonesa.ttf');
+}
+
+*{ /*mise en page général*/
+	margin : 0; 
+	padding: 0;
+}
+
+.index{ 
+	background-image: url('background/backgroundacceuil.png');
+	background-size : cover;
+
+}
+.inscription{
+	background-image: url('background/backgroundinscription.png');
+	background-size : cover;
+}
+
+.moncompte{
+	background-image: url('background/backgroundmoncompte.png');
+	background-size : cover;
+}
+
+.jouer{
+	background-image: url('background/backgroundjouer.png');
+	background-size : cover;
+}
+
+.contact{
+	background-image: url('background/backgroundcontact.png');
+	background-size : cover;
+}
+
+.quisommesnous{
+	background-image: url('background/backgroundquisommesnouspng.png');
+	background-size : cover;
+}
+
+.text{
+	font-family : 'osaka-re';
+	font-size   : 30px;
+	padding     : 50px;
+	padding-top : 100px;
+}
+
+.formulairecontact{
+	font-family : 'osaka-re';
+	font-size   : 25px;
+	padding     : 50px;
+	padding-top : 80px;
+	padding-left: 10px;
+	display: flex;
+}
+
+.label{
+	display: inline-block;
+	width: 250px;
+}
+
+.textInput{
+	width: 300px;
+	font-family : 'Japonesa';
+	font-size: 20px;
+	background: #989595;
+	color: #030000;
+	border:outset;
+	border-radius: 20px;
+}
+
+#contact_message{
+	margin-top: 20px;
+	width: 300px;
+}
+textarea{
+	width         : 200px;
+	vertical-align: baseline;
+	resize        : none;
+	min-height    : 90px;
+	font-family : 'Japonesa';
+	background: #989595;
+	border:outset;
+	font-size: 20px;
+	border-radius: 20px;
+}
+
+.right{
+	text-align: right;
+	padding-top: 15px;
+}
+
+input[type=submit]{
+	background   : black;
+	color        : white;
+	font-family : 'osaka-re';
+	border       : 1px solid;
+	border-radius: 20px;
+	padding      : 12px;
+}
+input[type=submit]:hover{
+	color:#ffd703;
+}
+
+.content{
+	display: flex;
+}
+
+.menu{
+	float       : right;
+	padding     : 80px; 
+	padding-left: 30px;
+	width       : 350px;
+	transform   :rotate(-5deg);
+	-ms-transform    :rotate(-5deg); /* Internet Explorer */
+	-moz-transform   :rotate(-5deg); /* Firefox */
+	-webkit-transform:rotate(-5deg); /* Safari et Chrome */
+	-o-transform     :rotate(-5deg); /* Opera */
+}
+
+ul{
+	list-style-type: none;
+}
+
+.logo{
+	text-align : center;
+	padding-top: 30px;
+}
+
+.base{ 
+	background: url(image/tongue.png); 
+	width: 256px; 
+	height: 256px; 
+} 
+
+.nerd{ 
+	background: url(image/sick1.png);
+	width: 256px; 
+	height: 256px; 
+}
+
+progress{
+	width: 300px;
+	height: 15px;
+}
+
+.jeux{
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+}
+
+.action, .objetCopie, .actionChoisie{
+	width: 60px;
+	height: 60px;
+}
+
+fieldset{
+	display: flex;
+	border-style: none;
+}
